@@ -27,6 +27,21 @@ const newName = "MoyoBaby"
 
 //ARROW FUNCTIONS
 
-const name = () =>{
+Traditional Arrow Functions
 
+function to arrow function
+example
+
+function (a, b){
+return a + b
 }
+
+//Arrow function
+(a, b) => a + b
+
+function bob(a){
+return a + 100
+}
+
+
+
