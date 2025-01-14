@@ -20,3 +20,13 @@ function callName(){
 const name = "Tobi"
 console.log(name)
 }
+
+//LET, CONST
+let name = "Moyo"
+const newName = "MoyoBaby"
+
+//ARROW FUNCTIONS
+
+const name = () =>{
+
+}
