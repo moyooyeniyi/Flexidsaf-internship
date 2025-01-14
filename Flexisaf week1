@@ -1,1 +1,20 @@
+Scope:
+Global Scope:
 
+const name = "Tola"
+
+function callName(){
+
+console.log(name)
+
+}
+console.log(name)
+callName()
+
+
+Local Scope:
+
+function callName(){
+const name = "Tobi"
+console.log(name)
+}
