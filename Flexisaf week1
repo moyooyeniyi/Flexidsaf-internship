@@ -43,5 +43,8 @@ function bob(a){
 return a + 100
 }
 
+const bob = (a) => a + 100
+
+
 
 
