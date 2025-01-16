@@ -129,3 +129,11 @@ function tripple(element, index, array){
 function display(element){
   console.log(element)
 }
+
+//Splice changes an array by adding or removing from an array
+
+const numbers = [1, 2, 3, 4, 5]
+
+const deleted = numbers.splice(2, 0, 6, 7)
+console.log(numbers)
+console.log(deleted)
