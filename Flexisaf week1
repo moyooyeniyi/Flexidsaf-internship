@@ -98,3 +98,12 @@ function isAdult(element){
 function isChild(element){
   return element < 18
 }
+
+//Example 3
+const words = ["apple", "orange", "banana", "kiwi", "pomegranate", "coconut"]
+const wordLength = words.filter(getShortWords)
+console.log(wordLength)
+
+function getShortWords(element){
+  return element.length <= 6
+}
