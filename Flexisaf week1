@@ -107,3 +107,25 @@ console.log(wordLength)
 function getShortWords(element){
   return element.length <= 6
 }
+
+// for each() = method used to iterate over the elements of an array and apply a specified function (callback) to each element
+
+//array.forEach(callback)
+
+let numbers = [1, 2, 3, 4, 5]
+
+
+numbers.forEach(tripple)
+numbers.forEach(display)
+
+function double(element, index, array){
+  array[index] = element * 2
+}
+
+function tripple(element, index, array){
+  array[index] = element * 3
+}
+
+function display(element){
+  console.log(element)
+}
